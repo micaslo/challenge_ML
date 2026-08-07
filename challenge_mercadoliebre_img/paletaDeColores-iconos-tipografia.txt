@@ -1,0 +1,59 @@
+Tipografia y paleta de colores
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --blanco:#f5f0ff;
+  --morado:#6c2bd9;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+
+  /* tipografia */
+  --roboto: "Roboto", sans-serif;
+
+  /* tamaños de fuentes */
+  --texto: 12px;
+  --titulares: 24px;
+
+  --price: 18px;
+  --discount: 1rem;
+  --description: 1rem;
+}
+
+
+Iconos 
+
+
+Link Font Awesome 
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+
+
+
+    <li><i class="fas fa-shipping-fast me-2"></i> fa-shipping-fast (envío rápido)</li>
+    <li><i class="fas fa-star me-2 text-warning"></i> fa-star (estrella)</li>
+    <li><i class="fas fa-medal me-2 text-success"></i> fa-medal (medalla)</li>
+    <li><i class="fas fa-thumbs-up me-2 text-success"></i> fa-thumbs-up (pulgar arriba)</li>
+    <li><i class="fas fa-check-circle me-2 text-success"></i> fa-check-circle (check círculo)</li>
+    <li><i class="fas fa-truck me-2"></i> fa-truck (camión envío)</li>
+    <li><i class="fas fa-credit-card me-2"></i> fa-credit-card (tarjeta de crédito)</li>
+    <li><i class="fas fa-money-bill me-2"></i> fa-money-bill (billete)</li>
+    <li><i class="fas fa-check me-2 text-success"></i> fa-check (check simple)</li>
+    <li><i class="fas fa-shield-alt me-2 text-success"></i> fa-shield-alt (escudo / garantía)</li>
+    <li><i class="fas fa-undo me-2 text-info"></i> fa-undo (devolución)</li>
+
+  
+    <li><i class="far fa-id-card me-2"></i> far fa-id-card (registro)</li>
+    <li><i class="fas fa-sign-in-alt me-2"></i> fa-sign-in-alt (inicio de sesión)</li>
+    <li><i class="fas fa-shopping-basket me-2"></i> fa-shopping-basket (mis compras)</li>
+    <li><i class="fas fa-search me-2"></i> fa-search (buscar)</li>
+    <li><i class="fas fa-hamburger me-2"></i> fa-hamburger (envío restaurantes)</li>
+    <li><i class="fas fa-gift me-2"></i> fa-gift (envíos gratis)</li>
+    <li><i class="fas fa-user-shield me-2"></i> fa-user-shield (seguridad)</li>
