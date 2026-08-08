@@ -28,7 +28,7 @@
    
   }
   /*ahorro y envio*/
-  .box {
+  .box-ahorro{
     display: flex;
     flex-direction: column;
     background-color:var(--gris-claro);
@@ -42,7 +42,7 @@
 } 
 
 
-.contenedor{
+.contenedor-ahorro{
     margin-left: 20px;
     background-color: var(--blanco);
     border-radius: 10px;
@@ -100,7 +100,7 @@
 }
 /* fin de productos destacados */
 /* formulario*/
-body{
+.body{
     background:#e6e6e6;
     display:flex;
     justify-content:center;
