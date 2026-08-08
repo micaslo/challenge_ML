@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="perfil">
+        <img src="./images/icon-registro.png" alt="Foto de perfil">
+        
+    </div>
+
+    <form>
+
+        <input type="text" placeholder="Nombre y Apellido" required>
+
+        <input type="text" placeholder="Nombre de usuario" required>
+
+        <input type="email" placeholder="Email" required>
+
+        <label>Fecha de nacimiento</label>
+        <input type="date">
+
+        <input type="text" placeholder="Domicilio">
+
+        <div class="opciones">
+
+            <label>
+                <input type="radio" name="tipo">
+                Vender
+            </label>
+
+            <label>
+                <input type="radio" name="tipo">
+                Comprar
+            </label>
+
+        </div>
+
+        <h3>Categorías</h3>
+
+        <div class="categorias">
+
+            <label><input type="checkbox"> Electro</label>
+
+            <label><input type="checkbox"> Moda</label>
+
+            <label><input type="checkbox"> Hogar</label>
+
+            <label><input type="checkbox"> Juguetería</label>
+
+            <label><input type="checkbox"> Vida Sana</label>
+
+        </div>
+
+        <input type="password" placeholder="Contraseña">
+
+        <input type="password" placeholder="Confirmar contraseña">
+
+        <div class="botones">
+
+            <button class="registrar">REGISTRAR</button>
+
+            <button type="reset" class="borrar">BORRAR</button>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
