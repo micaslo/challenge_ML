@@ -25,7 +25,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
+      
+  }
+  body{
+    background-color:var(--gris-claro);
   }
   /*ahorro y envio*/
   .box-ahorro{
@@ -64,6 +67,11 @@
     margin-left: 20px;
     color: var(--morado);
 } 
+/*banner venta*/
+.banner-venta{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 /*Fin Silvana*/
 
 /* productos destacados */
@@ -73,6 +81,7 @@
 
 .card-body {
     padding: .7rem;
+    
 }
 
 .card img{
